@@ -1,0 +1,11 @@
+Ho utilizzato diverse metodologie per la scansione delle porte su un target specifico:
+Utilizzando un software chiamato NMAP è possibile effettuare il port scanning secondo parametri prsonalizzabili, in modo
+tale da riuscire ad evidenziare le vulnerabilità che potremo sfruttare.
+Attraverso il comando nmap -O riusciamo a capire di che natura è il nostro target, l'ip e che tipo di servizi sono attivi su questo target. Sia per metasploitable che per Windows 7.
+Attraverso il comando nmap -sT e nmap -sS parte l'enumerazione delle porte 
+Attraverso il comando nmap -sV è possibile capire anche la versione e i vari dettagli
+
+Per quanto riguarda il punto successivo, su windows 7 non risuciamo ad ottenere molti risultati, in quanto il sistema operativo è protetto da un firewall, quindi è possibile 
+provare ad aggirarlo attraverso il comando nmap -T0 in modo tale da effettuare un tentativo di port scanning senzafare troppo rumore e farsi notare, è un metodo che impiega molto 
+tempo in modo tale che operi senza farsi notare.
+
